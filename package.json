@@ -17,14 +17,26 @@
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-emilia": "^1.0.15",
+    "@tippy.js/react": "^3.1.1",
     "gatsby": "^2.15.2",
+    "gatsby-background-image": "^0.9.12",
     "gatsby-plugin-google-analytics": "^2.1.13",
     "gatsby-plugin-manifest": "^2.2.13",
     "gatsby-plugin-netlify": "^2.1.11",
     "gatsby-plugin-offline": "^3.0.1",
+    "gatsby-plugin-sharp": "^2.3.5",
     "gatsby-plugin-sitemap": "^2.2.7",
+    "gatsby-source-filesystem": "^2.1.40",
+    "gatsby-transformer-sharp": "^2.3.7",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-device-detect": "^1.11.14",
+    "react-dom": "^16.9.0",
+    "react-images": "^1.0.0",
+    "react-images-z-index-fix": "^1.0.3-alpha.5",
+    "react-photo-gallery": "^8.0.0",
+    "react-scroll-to": "^3.0.0-beta.3",
+    "react-social-github": "^2.1.2",
+    "react-youtube-embed": "^1.0.3"
   },
   "devDependencies": {
     "cross-env": "^5.2.1"

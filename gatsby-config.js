@@ -4,12 +4,30 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Portfolio`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
-      options: {},
+      options: {
+        showThemeAuthor: false,
+        name: 'Graham Hemsley',
+        location: 'Chicago',
+        socialMedia: [
+            {
+              title: `Instagram`,
+              href: `https://www.instagram.com/graham_hemsley/`
+            },
+            {
+              title: 'YouTube',
+              href: 'https://www.youtube.com/channel/UCPBF8BLVVuLA5J8SQkejK7Q'
+            },
+            {
+              title: 'GitHub',
+              href: 'https://github.com/ghemsley'
+            }
+          ]
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -21,9 +39,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emilia - @lekoarts/gatsby-theme-emilia`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        name: `Graham Hemsley`,
+        short_name: `Graham Hemsley`,
+        description: `Portfolio website of Graham Hemsley`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3182ce`,
@@ -43,6 +61,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
   ],
 }
