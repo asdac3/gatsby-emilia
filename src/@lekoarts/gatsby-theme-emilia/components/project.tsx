@@ -263,6 +263,7 @@ const Project = ({ data: { project, images }, pageContext: { prev, next } }: Pro
               </div>
             </div>
           </div>
+          <ProjectPagination prev={prev} next={next} style={{position: 'relative'}}/>
         </Container>
       </Layout>
     )

@@ -7,18 +7,12 @@ areas:
   - Github
   - Programming
 ---
-import { Github } from 'react-social-github'
 
-<div>
-  <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap', width: '100%'}}>
-    <div style={{display: 'flex', flexDirection: 'column', flexBasis: '100%', flex: 1}}>
-      <Github user='ghemsley' repo='imagedupes' style={{backgroundColor: 'transparent'}}/>
-    </div>
-    <div style={{display: 'flex', flexDirection: 'column', flexBasis: '100%', flex: 1}}>
-      <Github user='ghemsley' style={{backgroundColor: 'transparent'}}/>
-    </div>
-    <div style={{display: 'flex', flexDirection: 'column', flexBasis: '100%', flex: 1}}>
-      <Github user='ghemsley' repo='imageviewer'style={{backgroundColor: 'transparent'}}/>
-    </div>
-  </div>
-</div>
+import GitHubWidget from 'react-github-widget'
+
+<GitHubWidget repository='ghemsley/gatsby-emilia' />
+<br/>
+<GitHubWidget repository='ghemsley/imagedupes' />
+<br/>
+<GitHubWidget repository='ghemsley/ImageViewer' />
+<br/>
