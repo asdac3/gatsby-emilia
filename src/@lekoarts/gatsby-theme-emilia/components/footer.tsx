@@ -73,7 +73,7 @@ const Footer = () => {
                 <animated.div style={backButtonProps}>
                   <Link
                     to="/"
-                    aria-label={`${name} - Back to homepage`}
+                    aria-label={`Back to homepage`}
                     sx={{
                       paddingTop: '2em',
                       display: `flex`,
