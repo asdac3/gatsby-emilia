@@ -21,7 +21,7 @@ type Props = {
 const Projects = ({ projects }: Props) => {
   const data = useStaticQuery(graphql`
     query {
-      allProject(sort: { fields: date, order: DESC }) {
+      allProject(sort: { fields: date, order: ASC }) {
         nodes {
           ... on MdxProject {
             parent {
